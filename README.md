@@ -23,9 +23,16 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-4. Jalankan notebook di folder notebooks/
+4. Konfigurasi Environment Variables
 
-5. Jalankan streamlit
+Salin file `.env.example` menjadi `.env` dan isi API Key serta URI database Anda:
+```bash
+cp .env.example .env
+```
+
+5. Jalankan notebook di folder notebooks/
+
+6. Jalankan streamlit
 
 ```bash
 streamlit run app.py
